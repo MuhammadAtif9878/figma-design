@@ -1,0 +1,134 @@
+.App{
+  margin: 0px;
+ background-color: black;
+}
+.setColor{
+  width: 150px;
+}
+
+.custom-nav-item {
+  margin-right: 50px; /* Adjust the value as needed */
+  color: wheat;
+}
+.custom-nav-item:last-child {
+  margin-right: 0; /* Optional: Remove right margin from the last item */
+}
+
+.setImgsize{
+  width: 100%;
+}
+.setColorImg{
+  color:#59cace;
+}
+.FontSize{
+  font-size:80px;
+}
+/* App.css */
+
+
+.setImgsize {
+  width: 100%;
+  /* Example max width, adjust as needed */
+}
+
+/* Custom styles for mobile responsiveness */
+@media (max-width: 768px) {
+  .FontSize {
+    font-size: 1.8rem; /* Adjust for smaller screens */
+  }
+
+  .setImgsize {
+    width: 100%; /* Ensure image doesn't overflow */
+  }
+
+  .p-5 {
+    padding: 2rem !important; /* Adjust padding for smaller screens */
+  }
+  .sizeImg1 img{
+    width: 170px;
+  }
+}
+
+.colorSet4{
+  color: #59cace;
+  border-right: 3px solid #59cace;
+  width: 350px;
+}
+.colorSet7{
+  color: #59cace;
+}
+.colorSet5{
+  color: aliceblue;
+  font-size: 48px;
+}
+
+/* Custom card styles */
+.custom-card {
+  background-color:  black !important;
+  color: white; /* Ensures text is readable on black background */
+  transition: background-color 0.3s ease;
+  /* Smooth transition effect */
+  border-radius: 30px;
+}
+
+.custom-card:hover {
+  background-color: rgba(67, 67, 67, 0.282) !important;
+  border-radius: 30px;
+
+}
+.card :hover{
+  border-radius: 30px;
+}
+.card{
+  border-radius: 30px;
+}
+.icon{
+  width: 150px;
+  margin-top: 30px;
+}
+.textSize12{
+  font-size: 20px;
+  padding-top: 15px;
+}
+.textSizehading{
+  font-size: 55px;
+}
+.textSizehading1{
+  font-size: 25px;
+
+}
+.imgCover {
+  width: 100%;
+}
+.fontSize{
+  font-size: 70px;
+  padding-top: 40px;
+}
+.fontSize44{
+  font-size: 25px;
+  padding-top: 50px;
+}
+.setimgsize22{
+  width: 100%;
+}
+.fontSize5{
+  font-size: 60px;
+}
+.bg-Set{
+  background-color: #4b4b4b58;
+  border-radius: 32px;
+}
+
+.custom-list {
+  list-style-type: none;
+  padding-left: 0; /* Optional: Removes default padding */
+}
+
+.custom-list li {
+  margin-bottom: 10px; /* Optional: Adds spacing between list items */
+}
+
+
+
+
+
